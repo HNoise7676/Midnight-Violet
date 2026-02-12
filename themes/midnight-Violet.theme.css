@@ -58,7 +58,7 @@ body {
     --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
     --panel-blur: on; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
-    --bg-floating: hsla(220, 15%, 13%, 0.9); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
+    --bg-floating: var(--bg-3); /* set this to a more opaque color if floating panels look too transparent. only applies if panel blur is on  */
 
     /* chatbar options */
     --custom-chatbar: separated; /* off: default chatbar, separated: chatbar separated from chat */
@@ -73,12 +73,12 @@ body {
     --colors: on; /* off: discord default colors, on: midnight custom colors */
 
     /* text colors */
-    --text-0: hsla(220, 15%, 10%, 1); /* text on colored elements */
+    --text-0: var(--bg-4); /* text on colored elements */
     --text-1: hsl(220, 45%, 95%); /* other normally white text */
-    --text-2: hsl(220, 25%, 85%); /* headings and important text */
-    --text-3: hsl(220, 20%, 70%); /* normal text */
-    --text-4: hsl(220, 15%, 50%); /* icon buttons and channels */
-    --text-5: hsl(220, 15%, 35%); /* muted channels/chats and timestamps */
+    --text-2: hsl(220, 25%, 70%); /* headings and important text */
+    --text-3: hsl(220, 20%, 60%); /* normal text */
+    --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
+    --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
     --bg-1: hsla(220, 15%, 20%, 0.6); /* dark buttons when clicked */
