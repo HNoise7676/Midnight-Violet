@@ -3,7 +3,7 @@
 This project is distributed under two distinct sets of terms:
 
 ### 💻 Source Code
-The CSS code for this theme is a modified version of the **Midnight** theme. In accordance with its original terms, the **CSS code** itself is licensed under the **MIT License**. 
+The CSS code for this theme is a modified version of the **[Midnight](https://github.com/refact0r/midnight-discord)** theme. In accordance with its original terms, the **CSS code** itself is licensed under the **MIT License**. 
 
 ### 🎨 Character Assets & IP
 > [!CAUTION]
