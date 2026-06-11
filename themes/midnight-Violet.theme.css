@@ -50,7 +50,8 @@ body {
 
     /* background image options */
     --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url('https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/Violet%20bg.png'); /* url of the background image */
+    --background-image-url: url('https://github.com/HNoise7676/Midnight-Violet/blob/master/assets/Violet%20bg.png?raw=true'); /* url of the background image */
+    /* https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/Violet%20bg.png */
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
