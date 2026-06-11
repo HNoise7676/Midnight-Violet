@@ -50,7 +50,7 @@ body {
 
     /* background image options */
     --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url('https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/Violet%20bg_old.png'); /* url of the background image */
+    --background-image-url: url('https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/Violet%20bg.png'); /* url of the background image */
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
@@ -80,7 +80,7 @@ body {
     --text-4: hsl(220, 15%, 40%); /* icon buttons and channels */
     --text-5: hsl(220, 15%, 25%); /* muted channels/chats and timestamps */
 
-    /* background and dark colors */
+    /* background and dark colors DO NOT CHANGE */
     --bg-1: hsla(220, 15%, 20%, 0.6); /* dark buttons when clicked */
     --bg-2: hsla(220, 15%, 16%, 0.6); /* dark buttons */
     --bg-3: hsla(220, 15%, 13%, 0.6); /* spacing, secondary elements */
@@ -88,6 +88,7 @@ body {
     --active: hsla(220, 19%, 40%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 19%, 40%, 0.3); /* extra state for transparent buttons */
     --message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
+    /* DO NOT CHANGE THE BACKGROUND COLORS */
 
     /* accent colors */
     --accent-1: var(--purple-1); /* links and other accent text */
