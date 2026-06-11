@@ -13,7 +13,7 @@
 body {
     /* font options */
     --font: 'figtree'; /* change to '' for default discord font */
-    --code-font: ''; /* change to '' for default discord font */
+    --code-font: 'CaskaydiaCove Nerd Font'; /* change to '' for default discord font */
     font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
     /* sizes */
