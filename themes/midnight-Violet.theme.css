@@ -50,7 +50,8 @@ body {
 
     /* background image options */
     --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url('https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/bg-11-6-2026.png'); /* url of the background image */
+    /* remember file limit -> File size exceeded the configured limit of 20 MB. */
+    --background-image-url: url('https://cdn.jsdelivr.net/gh/HNoise7676/Midnight-Violet@master/assets/backgrounds/bg-11-6-2026.png'); /* url of the background image */
     /* Vi remember to change the background url after each update do not just overwrite the last background */
 
     /* transparency/blur options */
